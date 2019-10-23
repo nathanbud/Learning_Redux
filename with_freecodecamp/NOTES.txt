@@ -1,0 +1,20 @@
+
+1.Create store
+2. Action: all state updates are triggered by dispatching actions.An action is simply a JavaScript object that contains information about an action event that has occurred. 
+The Redux store receives these action objects, then updates its state accordingly. Sometimes a Redux action also carries some data. 
+For example, the action carries a username after a user logs in. While the data is optional, actions must carry a type property that specifies the 'type' of action that occurred.
+
+3. Action Creator: An action creator is simply a JavaScript function that returns an action. In other words, action creators create objects that represent action events.
+4. Dispatch: dispatch method is what you use to dispatch actions to the Redux store. 
+5. Reducer: responsiblefor the state modifications that take place in response to actions.
+            it takse state and action as arguments, and it always returns a new state.
+ it never calls an API endpoint and it never has any hidden surprises. 
+The reducer is simply a pure function that takes state and action, then returns new state.
+
+
+Redux store object provides several methods
+a. store.getState();
+b. store.subscribe();
+
+FLOW:
+Create store > Create Action > Dispatch Action >

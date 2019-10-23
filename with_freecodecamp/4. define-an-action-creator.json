@@ -1,0 +1,3 @@
+{
+  "index.jsx": "const action = {\n  type: 'LOGIN'\n}\n// Define an action creator here:\nconst actionCreator = (action)=>{\n  return action;\n}"
+}

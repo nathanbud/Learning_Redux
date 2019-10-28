@@ -12,5 +12,5 @@ export function getData() {
     .then (json => {
         dispatch ({type: "DATA_LOADED", payload: json });
     });
-}
+ }
 }
